@@ -1,0 +1,146 @@
+.header-color {
+  background: linear-gradient(
+    to left,
+    #ff5e62,
+    #ff5e62,
+    #ebc0fd
+  ); /* Gradasi warna cerah */
+}
+
+.beranda-grid {
+  background: linear-gradient(to left, #ff5e62, #ebc0fd);
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap; /* Memungkinkan grid proyek menjadi responsif */
+  justify-content: center;
+}
+
+.avatar-img {
+  padding-top: 5em;
+  border-radius: 50%; /* Memastikan gambar avatar bulat */
+  border: 5px solid #fff; /* Memberikan efek border */
+  transition: transform 0.3s ease; /* Menambahkan efek transisi */
+}
+
+.avatar-img:hover {
+  transform: scale(1.1); /* Memperbesar gambar saat hover */
+}
+
+.banner-text {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.7
+  ); /* Mengubah opasitas untuk latar belakang */
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+  padding: 2em; /* Menambahkan padding */
+}
+
+.banner-text h1 {
+  font-size: 66px;
+  font-weight: bold;
+  color: #ffeb3b; /* Warna cerah untuk teks */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Menambahkan bayangan pada teks */
+}
+
+.banner-text hr {
+  border-top: 5px dotted #ffeb3b; /* Mengubah warna garis pemisah */
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text p {
+  color: #ffffff;
+  font-size: 20px;
+  padding: 1em;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto; /* Menambahkan margin */
+  width: 50%;
+}
+
+.social-links i {
+  color: #ffeb3b; /* Mengubah warna ikon */
+  font-size: 5em;
+  padding: 8px;
+  transition: transform 0.3s ease; /* Menambahkan efek transisi */
+}
+
+.social-links i:hover {
+  transform: scale(1.2); /* Memperbesar ikon saat hover */
+}
+
+.resume-right-col {
+  background: #1f1f1f; /* Warna gelap untuk kontras */
+  color: #ffffff;
+  padding: 2em;
+  border-radius: 10px; /* Menambahkan sudut bulat */
+}
+
+.content-body {
+  background: linear-gradient(to left, #ff5e62, #ebc0fd);
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+  display: flex;
+  align-items: center; /* Memastikan konten berada di tengah */
+}
+
+.content-grid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  background: white;
+  color: black;
+  margin-bottom: 20px;
+  border-radius: 10px; /* Menambahkan sudut bulat */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan */
+}
+
+.content-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.content-grid2 {
+  width: 80%;
+  height: 550px;
+  background: white;
+  color: black;
+  margin-bottom: 20px;
+  border-radius: 10px; /* Menambahkan sudut bulat */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan */
+}
+
+.content-grid2 h4 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.content-list i {
+  font-size: 66px;
+  padding-right: 5rem;
+  color: #ff5e62; /* Mengubah warna ikon */
+}
